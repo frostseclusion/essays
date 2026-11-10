@@ -5,7 +5,29 @@
 这不是博客，是书架。文章按主题放在几个独立的仓库里，这里只负责把它们摆到一起。
 
 <!-- BEGIN:SHELF -->
-_还没有文章。_
+**共 3 篇 · 更新至 2026-09-17**
+
+### 最近更新
+
+- `2026-09-17` [红楼梦随笔 · 其一](https://github.com/frostseclusion/literary-criticism/blob/main/posts/hongloumeng-suibi-qiyi.md) — 从龄官画蔷说起——一面镜子，一场反封建的爱情，和一个委屈的宝姐姐。
+- `2026-06-01` [华语乐坛：听众并不无辜](https://github.com/frostseclusion/social-commentary/blob/main/posts/huayu-yuetan-tingzhong.md) — 批评华语乐坛的声音从不缺席，但“听众无辜”这条公理没人质疑。这篇举三种人：厚古薄今的、只听词的、动辄觉得被冒犯的。
+- `2025-06-01` [论我为什么不喜欢辩论赛——以及为什么私人辩论是更优解](https://github.com/frostseclusion/social-commentary/blob/main/posts/bu-xihuan-bianlunsai.md) — 辩论赛引入评委、放任诡辩、把复杂问题压成二元对立；私人辩论没有这些毛病。
+
+### 按文集
+
+#### 文学评论（1 篇）
+
+- `2026-09-17` [红楼梦随笔 · 其一](https://github.com/frostseclusion/literary-criticism/blob/main/posts/hongloumeng-suibi-qiyi.md) — 从龄官画蔷说起——一面镜子，一场反封建的爱情，和一个委屈的宝姐姐。
+
+<sub>仓库：[`frostseclusion/literary-criticism`](https://github.com/frostseclusion/literary-criticism)</sub>
+
+#### 社会评论（2 篇）
+
+- `2026-06-01` [华语乐坛：听众并不无辜](https://github.com/frostseclusion/social-commentary/blob/main/posts/huayu-yuetan-tingzhong.md) — 批评华语乐坛的声音从不缺席，但“听众无辜”这条公理没人质疑。这篇举三种人：厚古薄今的、只听词的、动辄觉得被冒犯的。
+- `2025-06-01` [论我为什么不喜欢辩论赛——以及为什么私人辩论是更优解](https://github.com/frostseclusion/social-commentary/blob/main/posts/bu-xihuan-bianlunsai.md) — 辩论赛引入评委、放任诡辩、把复杂问题压成二元对立；私人辩论没有这些毛病。
+
+<sub>仓库：[`frostseclusion/social-commentary`](https://github.com/frostseclusion/social-commentary)</sub>
+
 <!-- END:SHELF -->
 
 ## 分册
