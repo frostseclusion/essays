@@ -117,17 +117,22 @@ function renderShelf(posts, site) {
   }
   const lines = [];
   const newer = posts.filter((p) => p.date).sort((a, b) => (a.date < b.date ? 1 : -1));
-  lines.push(`**共 ${posts.length} 篇 · 更新至 ${newer[0] ? ymd(newer[0].date) : '—'}**`, '');
+  // 英文文章在书架上标 EN，不另开一节：书架是跨语言的时间线，混排更符合“最近写了什么”。
+  const mark = (p) => (p.lang === 'en' ? ' `EN`' : '');
+  const zhN = posts.filter((p) => (p.lang ?? 'zh') === 'zh').length;
+  const enN = posts.filter((p) => p.lang === 'en').length;
+  const langNote = enN ? `（中文 ${zhN}，英文 ${enN}）` : '';
+  lines.push(`**共 ${posts.length} 篇${langNote} · 更新至 ${newer[0] ? ymd(newer[0].date) : '—'}**`, '');
   lines.push('### 最近更新', '');
   for (const p of newer.slice(0, 5)) {
-    lines.push(`- \`${ymd(p.date)}\` [${p.title}](${postUrl(p, site)}) — ${p.excerpt}`);
+    lines.push(`- \`${ymd(p.date)}\` [${p.title}](${postUrl(p, site)}) — ${p.excerpt}${mark(p)}`);
   }
   lines.push('', '### 按文集', '');
   for (const [id, list] of bySource) {
     const src = list[0].source;
     lines.push(`#### ${src.name}（${list.length} 篇）`, '');
     for (const p of list.sort((a, b) => (a.date < b.date ? 1 : -1))) {
-      lines.push(`- \`${ymd(p.date)}\` [${p.title}](${postUrl(p, site)}) — ${p.excerpt}`);
+      lines.push(`- \`${ymd(p.date)}\` [${p.title}](${postUrl(p, site)}) — ${p.excerpt}${mark(p)}`);
     }
     lines.push('', `<sub>仓库：[\`${src.repo}\`](https://github.com/${src.repo})</sub>`, '');
   }
