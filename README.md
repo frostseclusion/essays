@@ -4,6 +4,8 @@
 
 文章按主题分册存放在几个仓库里。这里不是博客，是书架：每个分册自己装文章，书架只负责把它们摆在一起。
 
+讨论、勘误、选题，都在 [Discussions](https://github.com/frostseclusion/essays/discussions)。
+
 <!-- BEGIN:SHELF -->
 _还没有文章。_
 <!-- END:SHELF -->
