@@ -135,10 +135,11 @@ function renderShelf(posts, site) {
 }
 
 function renderFeed(posts, site, { title, selfUrl }) {
-  const items = posts
+  const sorted = posts
     .filter((p) => p.date)
     .sort((a, b) => (a.date < b.date ? 1 : -1))
-    .slice(0, 50)
+    .slice(0, 50);
+  const items = sorted
     .map(
       (p) => `    <item>
       <title>${xml(p.title)}</title>
@@ -150,6 +151,10 @@ function renderFeed(posts, site, { title, selfUrl }) {
     </item>`,
     )
     .join('\n');
+  // lastBuildDate 用最新文章的日期：用"现在"会让每次构建都产生 diff
+  const lastBuildLine = sorted[0]
+    ? `    <lastBuildDate>${new Date(sorted[0].date).toUTCString()}</lastBuildDate>\n`
+    : '';
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
@@ -157,8 +162,7 @@ function renderFeed(posts, site, { title, selfUrl }) {
     <link>${xml(site.baseUrl || (site.repo ? `https://github.com/${site.repo}` : ''))}</link>
     <description>${xml(site.subtitle ?? '')}</description>
     <language>${xml(site.language ?? 'zh-CN')}</language>
-    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-${items}
+${lastBuildLine}${items}
   </channel>
 </rss>
 `;
