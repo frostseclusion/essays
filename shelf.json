@@ -7,7 +7,7 @@
     "author": "雪蘅",
     "language": "zh-CN"
   },
-  "generatedAt": "2026-11-10T12:47:50.252Z",
+  "generatedAt": "2026-11-10T12:59:29.300Z",
   "posts": [
     {
       "source": "literary-criticism",
@@ -53,6 +53,33 @@
       ],
       "url": "https://github.com/frostseclusion/social-commentary/blob/main/posts/huayu-yuetan-tingzhong.md",
       "path": "posts/huayu-yuetan-tingzhong.md",
+      "repo": "frostseclusion/social-commentary"
+    },
+    {
+      "source": "social-commentary",
+      "sourceName": "社会评论",
+      "title": "Mandopop — The Audience Is Not Blameless",
+      "slug": "mandopop-audience-not-blameless",
+      "date": "2026-06-25",
+      "summary": "Criticism of Mandopop never stops, but the idea that the audience is blameless rarely gets questioned. Three kinds of listeners say otherwise.",
+      "tags": [],
+      "url": "https://github.com/frostseclusion/social-commentary/blob/main/posts/mandopop-audience-not-blameless.md",
+      "path": "posts/mandopop-audience-not-blameless.md",
+      "repo": "frostseclusion/social-commentary"
+    },
+    {
+      "source": "social-commentary",
+      "sourceName": "社会评论",
+      "title": "现代人音乐审美自救办法",
+      "slug": "yinyue-shenmei-zijiu",
+      "date": "2024-10-01",
+      "summary": "从别看歌词、重夺注意力、按专辑听歌到打开心态，一套把歌听深的办法。",
+      "tags": [
+        "流行音乐",
+        "审美"
+      ],
+      "url": "https://github.com/frostseclusion/social-commentary/blob/main/posts/yinyue-shenmei-zijiu.md",
+      "path": "posts/yinyue-shenmei-zijiu.md",
       "repo": "frostseclusion/social-commentary"
     }
   ]
