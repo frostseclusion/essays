@@ -228,9 +228,11 @@ for (const src of sources) {
     renderFeed(list, site, { title: `${site.title} · ${src.name}` }),
   );
 }
+const latest = all.filter((p) => p.date).sort((a, b) => (a.date < b.date ? 1 : -1))[0];
 await writeFile(
   path.join(ROOT, 'shelf.json'),
-  JSON.stringify({ site, generatedAt: new Date().toISOString(), posts: all.map((p) => ({
+  // generatedAt 用最新文章的日期，不用 new Date()：否则每次构建都产生 diff，CI 每天一个空提交。
+  JSON.stringify({ site, generatedAt: latest ? new Date(latest.date).toISOString() : null, posts: all.map((p) => ({
     source: p.source.id, sourceName: p.source.name, title: p.title, slug: p.slug,
     date: ymd(p.date), summary: p.excerpt, tags: p.tags ?? [], url: postUrl(p, site),
     path: p.rel, repo: p.source.repo,
