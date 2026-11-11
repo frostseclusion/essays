@@ -47,12 +47,6 @@
 
 刚发了新文章、这里还没出现的话，等一等就好；想立刻看到，去 Actions 页面手动跑一次。
 
-## 订阅
-
-全部文章：`feed.xml`，任何 RSS 阅读器都能读。
-
-只订某一册：`feeds/literary-criticism.xml`、`feeds/social-commentary.xml`。
-
 ## 许可
 
 这里的文字按 [CC BY-NC-SA 4.0](LICENSE) 授权。脚本单独用 MIT，见 [scripts/LICENSE](scripts/LICENSE)。
