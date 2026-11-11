@@ -53,6 +53,12 @@ function parseFrontmatter(raw) {
 
 /* ---------- 数据源 ---------- */
 
+// sources.json 里写的是 owner/repo 这种短形式，git clone 需要完整地址。
+function repoUrl(repo) {
+  if (/^(https?:|git@|file:)/.test(repo)) return repo;
+  return `https://github.com/${repo}.git`;
+}
+
 async function resolveSource(src) {
   const local = src.path ? path.resolve(ROOT, src.path) : null;
   if (local && existsSync(path.join(local, 'posts'))) return { ...src, dir: local, mode: 'local' };
@@ -65,7 +71,7 @@ async function resolveSource(src) {
     execFileSync('git', ['-C', dir, 'reset', '--hard', `origin/${branch}`], { stdio: 'ignore' });
   } else {
     await mkdir(CACHE, { recursive: true });
-    execFileSync('git', ['clone', '--depth', '1', '--branch', branch, '--', src.repo, dir], { stdio: 'ignore' });
+    execFileSync('git', ['clone', '--depth', '1', '--branch', branch, '--', repoUrl(src.repo), dir], { stdio: 'ignore' });
   }
   return { ...src, dir, mode: 'clone' };
 }
