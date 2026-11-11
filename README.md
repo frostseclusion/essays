@@ -1,6 +1,6 @@
 # 雪蘅的文集
 
-> 文学评论、社会评论，以及还没有名字的那一类。
+> 文艺评论、社会评论，以及还没有名字的那一类。
 
 这不是博客，是书架。文章按主题放在几个独立的仓库里，这里只负责把它们摆到一起。
 
@@ -9,26 +9,26 @@
 
 ### 最近更新
 
-- `2026-09-17` [红楼梦随笔 · 其一](https://github.com/frostseclusion/literary-criticism/blob/main/posts/the-story-of-the-stone-causerie-1.md) — 蔷龄，镜子，薛宝钗。
-- `2026-06-25` [Mandopop — The Audience Is Not Blameless](https://github.com/frostseclusion/social-commentary/blob/main/posts/mandopop-the-audience-is-not-blameless-en.md) — Mandopop is awful. Fortunately, so is the audience. `EN`
-- `2026-06-01` [华语乐坛：听众并不无辜](https://github.com/frostseclusion/social-commentary/blob/main/posts/mandopop-the-audience-is-not-blameless.md) — 华语乐坛很糟糕，幸好听众也是。
+- `2026-09-17` [红楼梦随笔 · 其一](https://github.com/frostseclusion/arts-criticism/blob/main/posts/the-story-of-the-stone-causerie-1.md) — 蔷龄，镜子，薛宝钗。
+- `2026-06-25` [Mandopop — The Audience Is Not Blameless](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless-en.md) — Mandopop is awful. Fortunately, so is the audience. `EN`
+- `2026-06-01` [华语乐坛：听众并不无辜](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless.md) — 华语乐坛很糟糕，幸好听众也是。
 - `2025-06-01` [论我为什么不喜欢辩论赛——以及为什么私人辩论是更优解](https://github.com/frostseclusion/social-commentary/blob/main/posts/against-debate-competitions.md) — 在我高中毕业之前学校的辩论社解散了——我非常高兴。
-- `2024-10-01` [现代人音乐审美自救办法](https://github.com/frostseclusion/social-commentary/blob/main/posts/how-to-save-your-musical-taste.md) — 想拯救自己的审美，多少年都来得及。
+- `2024-10-01` [现代人音乐审美自救办法](https://github.com/frostseclusion/arts-criticism/blob/main/posts/how-to-save-your-musical-taste.md) — 想拯救自己的审美，多少年都来得及。
 
 ### 按文集
 
-#### 文学评论（1 篇）
+#### 文艺评论（4 篇）
 
-- `2026-09-17` [红楼梦随笔 · 其一](https://github.com/frostseclusion/literary-criticism/blob/main/posts/the-story-of-the-stone-causerie-1.md) — 蔷龄，镜子，薛宝钗。
+- `2026-09-17` [红楼梦随笔 · 其一](https://github.com/frostseclusion/arts-criticism/blob/main/posts/the-story-of-the-stone-causerie-1.md) — 蔷龄，镜子，薛宝钗。
+- `2026-06-25` [Mandopop — The Audience Is Not Blameless](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless-en.md) — Mandopop is awful. Fortunately, so is the audience. `EN`
+- `2026-06-01` [华语乐坛：听众并不无辜](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless.md) — 华语乐坛很糟糕，幸好听众也是。
+- `2024-10-01` [现代人音乐审美自救办法](https://github.com/frostseclusion/arts-criticism/blob/main/posts/how-to-save-your-musical-taste.md) — 想拯救自己的审美，多少年都来得及。
 
-<sub>仓库：[`frostseclusion/literary-criticism`](https://github.com/frostseclusion/literary-criticism)</sub>
+<sub>仓库：[`frostseclusion/arts-criticism`](https://github.com/frostseclusion/arts-criticism)</sub>
 
-#### 社会评论（4 篇）
+#### 社会评论（1 篇）
 
-- `2026-06-25` [Mandopop — The Audience Is Not Blameless](https://github.com/frostseclusion/social-commentary/blob/main/posts/mandopop-the-audience-is-not-blameless-en.md) — Mandopop is awful. Fortunately, so is the audience. `EN`
-- `2026-06-01` [华语乐坛：听众并不无辜](https://github.com/frostseclusion/social-commentary/blob/main/posts/mandopop-the-audience-is-not-blameless.md) — 华语乐坛很糟糕，幸好听众也是。
 - `2025-06-01` [论我为什么不喜欢辩论赛——以及为什么私人辩论是更优解](https://github.com/frostseclusion/social-commentary/blob/main/posts/against-debate-competitions.md) — 在我高中毕业之前学校的辩论社解散了——我非常高兴。
-- `2024-10-01` [现代人音乐审美自救办法](https://github.com/frostseclusion/social-commentary/blob/main/posts/how-to-save-your-musical-taste.md) — 想拯救自己的审美，多少年都来得及。
 
 <sub>仓库：[`frostseclusion/social-commentary`](https://github.com/frostseclusion/social-commentary)</sub>
 
@@ -38,7 +38,7 @@
 
 | 分册 | 仓库 |
 | --- | --- |
-| 文学评论 | [literary-criticism](https://github.com/frostseclusion/literary-criticism) |
+| 文艺评论 | [arts-criticism](https://github.com/frostseclusion/arts-criticism) |
 | 社会评论 | [social-commentary](https://github.com/frostseclusion/social-commentary) |
 
 ## 这一页怎么来的

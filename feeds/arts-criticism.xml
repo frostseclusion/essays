@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>雪蘅的文集 · 文艺评论</title>
+    <link>https://github.com/frostseclusion/essays</link>
+    <description>文艺评论、社会评论，以及还没有名字的那一类</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>红楼梦随笔 · 其一</title>
+      <link>https://github.com/frostseclusion/arts-criticism/blob/main/posts/the-story-of-the-stone-causerie-1.md</link>
+      <guid isPermaLink="true">https://github.com/frostseclusion/arts-criticism/blob/main/posts/the-story-of-the-stone-causerie-1.md</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <category>文艺评论</category>
+      <description>蔷龄，镜子，薛宝钗。</description>
+    </item>
+    <item>
+      <title>Mandopop — The Audience Is Not Blameless</title>
+      <link>https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless-en.md</link>
+      <guid isPermaLink="true">https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless-en.md</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 GMT</pubDate>
+      <category>文艺评论</category>
+      <description>Mandopop is awful. Fortunately, so is the audience.</description>
+    </item>
+    <item>
+      <title>华语乐坛：听众并不无辜</title>
+      <link>https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless.md</link>
+      <guid isPermaLink="true">https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless.md</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <category>文艺评论</category>
+      <description>华语乐坛很糟糕，幸好听众也是。</description>
+    </item>
+    <item>
+      <title>现代人音乐审美自救办法</title>
+      <link>https://github.com/frostseclusion/arts-criticism/blob/main/posts/how-to-save-your-musical-taste.md</link>
+      <guid isPermaLink="true">https://github.com/frostseclusion/arts-criticism/blob/main/posts/how-to-save-your-musical-taste.md</guid>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate>
+      <category>文艺评论</category>
+      <description>想拯救自己的审美，多少年都来得及。</description>
+    </item>
+  </channel>
+</rss>

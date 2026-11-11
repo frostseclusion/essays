@@ -2,7 +2,7 @@
   "$comment": "shelf 的数据源清单。path 用于本地联调；正式部署时把 path 删掉、只留 repo，脚本会浅克隆到 .cache/。",
   "site": {
     "title": "雪蘅的文集",
-    "subtitle": "文学评论、社会评论，以及还没有名字的那一类",
+    "subtitle": "文艺评论、社会评论，以及还没有名字的那一类",
     "baseUrl": "",
     "repo": "frostseclusion/essays",
     "author": "雪蘅",
@@ -10,11 +10,11 @@
   },
   "sources": [
     {
-      "id": "literary-criticism",
-      "name": "文学评论",
-      "repo": "frostseclusion/literary-criticism",
+      "id": "arts-criticism",
+      "name": "文艺评论",
+      "repo": "frostseclusion/arts-criticism",
       "branch": "main",
-      "path": "../literary-criticism"
+      "path": "../arts-criticism"
     },
     {
       "id": "social-commentary",
