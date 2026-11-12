@@ -12,7 +12,7 @@
 - `2026-11-12` [为什么 King Crimson 说日语](https://github.com/frostseclusion/arts-criticism/blob/main/posts/why-king-crimson-speaks-japanese.md) — 擅自揣测《Matte Kudasai》的创作动机。
 - `2026-11-12` [Why King Crimson Speaks Japanese](https://github.com/frostseclusion/arts-criticism/blob/main/posts/why-king-crimson-speaks-japanese-en.md) — A speculative dive into the creative motivations behind “Matte Kudasai.” `EN`
 - `2026-09-17` [红楼梦随笔 · 其一](https://github.com/frostseclusion/arts-criticism/blob/main/posts/the-story-of-the-stone-causerie-1.md) — 蔷龄，镜子，薛宝钗。
-- `2026-06-25` [Mandopop — The Audience Is Not Blameless](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless-en.md) — Mandopop is awful. Fortunately, so is the audience. `EN`
+- `2026-06-25` [Mandopop—The Audience Is Not Blameless](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless-en.md) — Mandopop is awful. Fortunately, so is the audience. `EN`
 - `2026-06-01` [华语乐坛：听众并不无辜](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless.md) — 华语乐坛很糟糕，幸好听众也是。
 
 ### 按文集
@@ -22,7 +22,7 @@
 - `2026-11-12` [为什么 King Crimson 说日语](https://github.com/frostseclusion/arts-criticism/blob/main/posts/why-king-crimson-speaks-japanese.md) — 擅自揣测《Matte Kudasai》的创作动机。
 - `2026-11-12` [Why King Crimson Speaks Japanese](https://github.com/frostseclusion/arts-criticism/blob/main/posts/why-king-crimson-speaks-japanese-en.md) — A speculative dive into the creative motivations behind “Matte Kudasai.” `EN`
 - `2026-09-17` [红楼梦随笔 · 其一](https://github.com/frostseclusion/arts-criticism/blob/main/posts/the-story-of-the-stone-causerie-1.md) — 蔷龄，镜子，薛宝钗。
-- `2026-06-25` [Mandopop — The Audience Is Not Blameless](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless-en.md) — Mandopop is awful. Fortunately, so is the audience. `EN`
+- `2026-06-25` [Mandopop—The Audience Is Not Blameless](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless-en.md) — Mandopop is awful. Fortunately, so is the audience. `EN`
 - `2026-06-01` [华语乐坛：听众并不无辜](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless.md) — 华语乐坛很糟糕，幸好听众也是。
 - `2024-10-01` [现代人音乐审美自救办法](https://github.com/frostseclusion/arts-criticism/blob/main/posts/how-to-save-your-musical-taste.md) — 想拯救自己的审美，多少年都来得及。
 
