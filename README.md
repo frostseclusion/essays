@@ -73,4 +73,4 @@
 
 ## 讨论
 
-[Discussions](https://github.com/frostseclusion/essays/discussions) —— 勘误、留言、选题。
+勘误、留言、想让我写什么，都在 [Discussions](https://github.com/frostseclusion/essays/discussions)。

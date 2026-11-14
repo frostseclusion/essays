@@ -47,4 +47,4 @@ Full terms in [LICENSE](LICENSE). Scripts are MIT-licensed. See [scripts/LICENSE
 
 ## Discussion
 
-[Discussions](https://github.com/frostseclusion/essays/discussions)—errata, comments, and topic requests.
+Errata, comments, and requests all live in [Discussions](https://github.com/frostseclusion/essays/discussions).
