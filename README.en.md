@@ -1,10 +1,10 @@
 **English** | [简体中文](README.md)
 
-# Frostseclusion's Collected Essays
+# Frostseclusion’s Collected Essays
 
 > Literary criticism, social commentary, and a third category that has no name yet.
 
-This is not a blog, it's a bookshelf. Posts live in separate repositories by theme; this repository only brings them together.
+This is not a blog, it’s a bookshelf. Posts live in separate repositories by theme; this repository only brings them together.
 
 ## Contents
 
@@ -47,4 +47,4 @@ Full terms in [LICENSE](LICENSE). Scripts are MIT-licensed. See [scripts/LICENSE
 
 ## Discussion
 
-[Discussions](https://github.com/frostseclusion/essays/discussions) — errata, comments, and topic requests.
+[Discussions](https://github.com/frostseclusion/essays/discussions)—errata, comments, and topic requests.
