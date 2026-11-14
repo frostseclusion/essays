@@ -140,7 +140,7 @@ function renderShelf(posts, site) {
     for (const p of list.sort((a, b) => (a.date < b.date ? 1 : -1))) {
       lines.push(`- \`${ymd(p.date)}\` [${p.title}](${postUrl(p, site)}) — ${p.excerpt}${mark(p)}`);
     }
-    lines.push('', `<sub>仓库：[\`${src.repo}\`](https://github.com/${src.repo})</sub>`, '');
+    lines.push('');
   }
   return lines.join('\n');
 }

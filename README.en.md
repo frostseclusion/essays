@@ -1,6 +1,6 @@
 **English** | [简体中文](README.md)
 
-# Xue Heng's Collected Essays
+# Frostseclusion's Collected Essays
 
 > Literary criticism, social commentary, and a third category that has no name yet.
 

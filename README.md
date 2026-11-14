@@ -28,13 +28,9 @@
 - `2026-06-01` [华语乐坛：听众并不无辜](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless.md) — 华语乐坛很糟糕，幸好听众也是。
 - `2024-10-01` [现代人音乐审美自救办法](https://github.com/frostseclusion/arts-criticism/blob/main/posts/how-to-save-your-musical-taste.md) — 想拯救自己的审美，多少年都来得及。
 
-<sub>仓库：[`frostseclusion/arts-criticism`](https://github.com/frostseclusion/arts-criticism)</sub>
-
 #### 社会评论（1 篇）
 
 - `2025-06-01` [论我为什么不喜欢辩论赛——以及为什么私人辩论是更优解](https://github.com/frostseclusion/social-commentary/blob/main/posts/against-debate-competitions.md) — 在我高中毕业之前学校的辩论社解散了——我非常高兴。
-
-<sub>仓库：[`frostseclusion/social-commentary`](https://github.com/frostseclusion/social-commentary)</sub>
 
 <!-- END:SHELF -->
 
