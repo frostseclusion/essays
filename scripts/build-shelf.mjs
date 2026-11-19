@@ -114,8 +114,9 @@ function postUrl(post, site) {
   return `https://github.com/${post.source.repo}/blob/${post.source.branch ?? 'main'}/${post.rel}`;
 }
 
-function renderShelf(posts, site) {
-  if (posts.length === 0) return '_还没有文章。_';
+function renderShelf(posts, site, lang = 'zh') {
+  const en = lang === 'en';
+  if (posts.length === 0) return en ? '_No posts yet._' : '_还没有文章。_';
   const bySource = new Map();
   for (const p of posts) {
     if (!bySource.has(p.source.id)) bySource.set(p.source.id, []);
@@ -127,16 +128,23 @@ function renderShelf(posts, site) {
   const mark = (p) => (p.lang === 'en' ? ' `EN`' : '');
   const zhN = posts.filter((p) => (p.lang ?? 'zh') === 'zh').length;
   const enN = posts.filter((p) => p.lang === 'en').length;
-  const langNote = enN ? `（中文 ${zhN}，英文 ${enN}）` : '';
-  lines.push(`**共 ${posts.length} 篇${langNote} · 更新至 ${newer[0] ? ymd(newer[0].date) : '—'}**`, '');
-  lines.push('### 最近更新', '');
+  const langNote = enN ? (en ? ` (${zhN} Chinese, ${enN} English)` : `（中文 ${zhN}，英文 ${enN}）`) : '';
+  const header = en
+    ? `**${posts.length} ${posts.length === 1 ? 'post' : 'posts'}${langNote} · Updated ${newer[0] ? ymd(newer[0].date) : '—'}**`
+    : `**共 ${posts.length} 篇${langNote} · 更新至 ${newer[0] ? ymd(newer[0].date) : '—'}**`;
+  lines.push(header, '');
+  lines.push(en ? '### Recent' : '### 最近更新', '');
   for (const p of newer.slice(0, 5)) {
     lines.push(`- \`${ymd(p.date)}\` [${p.title}](${postUrl(p, site)}) — ${p.excerpt}${mark(p)}`);
   }
-  lines.push('', '### 按文集', '');
+  lines.push('', en ? '### By volume' : '### 按文集', '');
   for (const [id, list] of bySource) {
     const src = list[0].source;
-    lines.push(`#### ${src.name}（${list.length} 篇）`, '');
+    const name = en ? (src.nameEn ?? src.name) : src.name;
+    lines.push(
+      en ? `#### ${name} (${list.length} ${list.length === 1 ? 'post' : 'posts'})` : `#### ${name}（${list.length} 篇）`,
+      '',
+    );
     for (const p of list.sort((a, b) => (a.date < b.date ? 1 : -1))) {
       lines.push(`- \`${ymd(p.date)}\` [${p.title}](${postUrl(p, site)}) — ${p.excerpt}${mark(p)}`);
     }
@@ -213,17 +221,27 @@ if (CHECK_ONLY) {
   process.exit(0);
 }
 
-const shelfMd = renderShelf(all, site);
-const readmePath = path.join(ROOT, 'README.md');
-let readme = existsSync(readmePath) ? await readFile(readmePath, 'utf8') : `# ${site.title}\n\n${BEGIN}\n${END}\n`;
-if (!readme.includes(BEGIN) || !readme.includes(END)) {
-  throw new Error(`README.md 里找不到 ${BEGIN} / ${END} 标记，无法安全替换目录`);
+// 中文页必须存在且有标记；英文页可选（没有就跳过，不拦着构建）。
+async function writeShelfReadme(file, lang) {
+  const target = path.join(ROOT, file);
+  const required = lang === 'zh';
+  if (!existsSync(target)) {
+    if (!required) {
+      console.log(`  ! 没有 ${file}，跳过英文目录`);
+      return;
+    }
+    throw new Error(`找不到 ${file}`);
+  }
+  let text = await readFile(target, 'utf8');
+  if (!text.includes(BEGIN) || !text.includes(END)) {
+    throw new Error(`${file} 里找不到 ${BEGIN} / ${END} 标记，无法安全替换目录`);
+  }
+  text = text.replace(new RegExp(`${BEGIN}[\\s\\S]*?${END}`), `${BEGIN}\n${renderShelf(all, site, lang)}\n${END}`);
+  await writeFile(target, text);
 }
-readme = readme.replace(
-  new RegExp(`${BEGIN}[\\s\\S]*?${END}`),
-  `${BEGIN}\n${shelfMd}\n${END}`,
-);
-await writeFile(readmePath, readme);
+
+await writeShelfReadme('README.md', 'zh');
+await writeShelfReadme('README.en.md', 'en');
 
 await writeFile(path.join(ROOT, 'feed.xml'), renderFeed(all, site, { title: site.title }));
 await mkdir(path.join(ROOT, 'feeds'), { recursive: true });
@@ -246,5 +264,5 @@ await writeFile(
 );
 
 const stale = all.filter((p) => p.status === 'retired').length;
-console.log(`\n✓ 已生成 README.md / feed.xml / feeds/*.xml / shelf.json（${all.length} 篇已发布${stale ? `，${stale} 篇已下架` : ''}）`);
+console.log(`\n✓ 已生成 README.md / README.en.md / feed.xml / feeds/*.xml / shelf.json（${all.length} 篇已发布${stale ? `，${stale} 篇已下架` : ''}）`);
 if (errors.length) console.log(`  但有 ${errors.length} 条警告，见上。`);

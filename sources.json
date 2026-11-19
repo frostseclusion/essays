@@ -12,6 +12,7 @@
     {
       "id": "arts-criticism",
       "name": "文艺评论",
+      "nameEn": "Arts criticism",
       "repo": "frostseclusion/arts-criticism",
       "branch": "main",
       "path": "../arts-criticism"
@@ -19,6 +20,7 @@
     {
       "id": "social-commentary",
       "name": "社会评论",
+      "nameEn": "Social commentary",
       "repo": "frostseclusion/social-commentary",
       "branch": "main",
       "path": "../social-commentary"
