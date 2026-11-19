@@ -7,7 +7,7 @@
     "author": "雪蘅",
     "language": "zh-CN"
   },
-  "generatedAt": "2026-11-12T00:00:00.000Z",
+  "generatedAt": "2026-11-19T00:00:00.000Z",
   "posts": [
     {
       "source": "arts-criticism",
@@ -22,6 +22,36 @@
       ],
       "url": "https://github.com/frostseclusion/arts-criticism/blob/main/posts/how-to-save-your-musical-taste.md",
       "path": "posts/how-to-save-your-musical-taste.md",
+      "repo": "frostseclusion/arts-criticism"
+    },
+    {
+      "source": "arts-criticism",
+      "sourceName": "文艺评论",
+      "title": "Love · Jazz · City",
+      "slug": "love-jazz-city-en",
+      "date": "2026-11-19",
+      "summary": "The first time in years I have distilled my feelings about my favorite film into words.",
+      "tags": [
+        "Film",
+        "La La Land"
+      ],
+      "url": "https://github.com/frostseclusion/arts-criticism/blob/main/posts/love-jazz-city-en.md",
+      "path": "posts/love-jazz-city-en.md",
+      "repo": "frostseclusion/arts-criticism"
+    },
+    {
+      "source": "arts-criticism",
+      "sourceName": "文艺评论",
+      "title": "爱·乐·城",
+      "slug": "love-jazz-city",
+      "date": "2026-11-19",
+      "summary": "多年来第一次凝练对自己最爱电影的感受。",
+      "tags": [
+        "电影",
+        "爱乐之城"
+      ],
+      "url": "https://github.com/frostseclusion/arts-criticism/blob/main/posts/love-jazz-city.md",
+      "path": "posts/love-jazz-city.md",
       "repo": "frostseclusion/arts-criticism"
     },
     {

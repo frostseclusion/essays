@@ -7,20 +7,22 @@
 这不是博客，是书架。文章按主题放在几个独立的仓库里，这里只负责把它们摆到一起。
 
 <!-- BEGIN:SHELF -->
-**共 7 篇（中文 5，英文 2） · 更新至 2026-11-12**
+**共 9 篇（中文 6，英文 3） · 更新至 2026-11-19**
 
 ### 最近更新
 
+- `2026-11-19` [爱·乐·城](https://github.com/frostseclusion/arts-criticism/blob/main/posts/love-jazz-city.md) — 多年来第一次凝练对自己最爱电影的感受。
+- `2026-11-19` [Love · Jazz · City](https://github.com/frostseclusion/arts-criticism/blob/main/posts/love-jazz-city-en.md) — The first time in years I have distilled my feelings about my favorite film into words. `EN`
 - `2026-11-12` [为什么 King Crimson 说日语](https://github.com/frostseclusion/arts-criticism/blob/main/posts/why-king-crimson-speaks-japanese.md) — 擅自揣测《Matte Kudasai》的创作动机。
 - `2026-11-12` [Why King Crimson Speaks Japanese](https://github.com/frostseclusion/arts-criticism/blob/main/posts/why-king-crimson-speaks-japanese-en.md) — A speculative dive into the creative motivations behind “Matte Kudasai.” `EN`
 - `2026-09-17` [红楼梦随笔·其一](https://github.com/frostseclusion/arts-criticism/blob/main/posts/the-story-of-the-stone-causerie-1.md) — 蔷龄，镜子，薛宝钗。
-- `2026-06-25` [Mandopop—The Audience Is Not Blameless](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless-en.md) — Mandopop is awful. Fortunately, so is the audience. `EN`
-- `2026-06-01` [华语乐坛：听众并不无辜](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless.md) — 华语乐坛很糟糕，幸好听众也是。
 
 ### 按文集
 
-#### 文艺评论（6 篇）
+#### 文艺评论（8 篇）
 
+- `2026-11-19` [爱·乐·城](https://github.com/frostseclusion/arts-criticism/blob/main/posts/love-jazz-city.md) — 多年来第一次凝练对自己最爱电影的感受。
+- `2026-11-19` [Love · Jazz · City](https://github.com/frostseclusion/arts-criticism/blob/main/posts/love-jazz-city-en.md) — The first time in years I have distilled my feelings about my favorite film into words. `EN`
 - `2026-11-12` [为什么 King Crimson 说日语](https://github.com/frostseclusion/arts-criticism/blob/main/posts/why-king-crimson-speaks-japanese.md) — 擅自揣测《Matte Kudasai》的创作动机。
 - `2026-11-12` [Why King Crimson Speaks Japanese](https://github.com/frostseclusion/arts-criticism/blob/main/posts/why-king-crimson-speaks-japanese-en.md) — A speculative dive into the creative motivations behind “Matte Kudasai.” `EN`
 - `2026-09-17` [红楼梦随笔·其一](https://github.com/frostseclusion/arts-criticism/blob/main/posts/the-story-of-the-stone-causerie-1.md) — 蔷龄，镜子，薛宝钗。
