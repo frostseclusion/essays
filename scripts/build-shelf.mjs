@@ -22,6 +22,9 @@ const END = '<!-- END:SHELF -->';
 
 /* ---------- frontmatter ---------- */
 
+// 生成的英文文案也遵守 AP：1–9 拼写、10 及以上用数字
+const numWord = (n) => (n > 0 && n < 10 ? ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'][n] : String(n));
+
 function unquote(s) {
   if (s.length >= 2 && ((s[0] === '"' && s.at(-1) === '"') || (s[0] === "'" && s.at(-1) === "'"))) {
     return s.slice(1, -1);
@@ -128,9 +131,9 @@ function renderShelf(posts, site, lang = 'zh') {
   const mark = (p) => (p.lang === 'en' ? ' `EN`' : '');
   const zhN = posts.filter((p) => (p.lang ?? 'zh') === 'zh').length;
   const enN = posts.filter((p) => p.lang === 'en').length;
-  const langNote = enN ? (en ? ` (${zhN} Chinese, ${enN} English)` : `（中文 ${zhN}，英文 ${enN}）`) : '';
+  const langNote = enN ? (en ? ` (${numWord(zhN)} Chinese, ${numWord(enN)} English)` : `（中文 ${zhN}，英文 ${enN}）`) : '';
   const header = en
-    ? `**${posts.length} ${posts.length === 1 ? 'post' : 'posts'}${langNote} · Updated ${newer[0] ? ymd(newer[0].date) : '—'}**`
+    ? `**${numWord(posts.length)} ${posts.length === 1 ? 'post' : 'posts'}${langNote} · Updated ${newer[0] ? ymd(newer[0].date) : '—'}**`
     : `**共 ${posts.length} 篇${langNote} · 更新至 ${newer[0] ? ymd(newer[0].date) : '—'}**`;
   lines.push(header, '');
   lines.push(en ? '### Recent' : '### 最近更新', '');
@@ -142,7 +145,7 @@ function renderShelf(posts, site, lang = 'zh') {
     const src = list[0].source;
     const name = en ? (src.nameEn ?? src.name) : src.name;
     lines.push(
-      en ? `#### ${name} (${list.length} ${list.length === 1 ? 'post' : 'posts'})` : `#### ${name}（${list.length} 篇）`,
+      en ? `#### ${name} (${numWord(list.length)} ${list.length === 1 ? 'post' : 'posts'})` : `#### ${name}（${list.length} 篇）`,
       '',
     );
     for (const p of list.sort((a, b) => (a.date < b.date ? 1 : -1))) {

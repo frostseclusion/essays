@@ -9,7 +9,7 @@ This is not a blog, it’s a bookshelf. Posts live in separate repositories by t
 ## Contents
 
 <!-- BEGIN:SHELF -->
-**9 posts (6 Chinese, 3 English) · Updated 2026-11-19**
+**nine posts (six Chinese, three English) · Updated 2026-11-19**
 
 ### Recent
 
@@ -21,7 +21,7 @@ This is not a blog, it’s a bookshelf. Posts live in separate repositories by t
 
 ### By volume
 
-#### Arts criticism (8 posts)
+#### Arts criticism (eight posts)
 
 - `2026-11-19` [爱·乐·城](https://github.com/frostseclusion/arts-criticism/blob/main/posts/love-jazz-city.md) — 多年来第一次凝练对自己最爱电影的感受。
 - `2026-11-19` [Love · Jazz · City](https://github.com/frostseclusion/arts-criticism/blob/main/posts/love-jazz-city-en.md) — The first time in years I have distilled my feelings about my favorite film into words. `EN`
@@ -32,7 +32,7 @@ This is not a blog, it’s a bookshelf. Posts live in separate repositories by t
 - `2026-06-01` [华语乐坛：听众并不无辜](https://github.com/frostseclusion/arts-criticism/blob/main/posts/mandopop-the-audience-is-not-blameless.md) — 华语乐坛很糟糕，幸好听众也是。
 - `2024-10-01` [现代人音乐审美自救办法](https://github.com/frostseclusion/arts-criticism/blob/main/posts/how-to-save-your-musical-taste.md) — 想拯救自己的审美，多少年都来得及。
 
-#### Social commentary (1 post)
+#### Social commentary (one post)
 
 - `2025-06-01` [论我为什么不喜欢辩论赛——以及为什么私人辩论是更优解](https://github.com/frostseclusion/social-commentary/blob/main/posts/against-debate-competitions.md) — 在我高中毕业之前学校的辩论社解散了——我非常高兴。
 
